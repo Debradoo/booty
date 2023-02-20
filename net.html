@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        section{
+            padding: 60px 0;
+        }
+        navbar{
+          background-color: rgb(5, 223, 5) !important;
+        }
+        .product{
+          background-color: rgb(5, 223, 5) !important;
+        }
+        .red{
+          background-color: rgb(245, 20, 20) !important;
+        }
+        .whitetext{
+          color: #fff;
+        }
+      .login-body{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100vh;
+    
+      }
+      .loginform{
+        border: 2px solid black;
+      }
+      
+        
+        
+
+    </style>
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-md navbar-light navbar-dark bg-success ">
+        <div class="container-xxl">
+            <img src="Asset/msmelogo.jpg" class="navbar-brand" width="200" height="100">
+                
+                
+            
+            <!--toggle button for nav bar-->
+            <button class="navbar-toggler" type="button"
+         data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <!--nav bar links-->
+         <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link whitetext"  href="#intro">Home
+
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link whitetext" href="#About-Us">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link whitetext" href="#our-products">Our Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link whitetext" href="#newletter">Newsletter</a>
+        </li>
+    
+        <li class="nav-item ms-2 d-none  d-md-inline">
+          <a href="#pricing" class="btn btn-success btn-lg" id="login"  data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><i class="bi bi-person"
+            style="font-size:xx-large";></i></a>
+          
+          <li class="nav-item  d-md-none">
+            <a href="#pricing" class="btn btn-success btn-lg"  data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login</a>
+            
+            
+        </li>
+      </ul>
+         </div>
+    </div>
+  </div>
+</nav>
+        
+<!--image and into text-->
+<section id="intro">
+    <div class="container-lg align-items-center">
+        <div class="row justify-content-center">
+            <div class="col md-5 text-align-center text-md-start">
+                <h1>
+                <div class="display-2 fst-italic fw-bold">Toma-Puree</div>
+                <div class="display-5 text-muted">100% organic freshly made tomatoe puree</div>
+                </h1>
+                <p class="lead  bg-primary-outline my-4 text-muted">Freshly prepared sweet, tasty and ready to use. Saves time,money and energy.
+             </p>
+             <a href="#our-products" class="btn red btn-lg ">Buy Now</a>
+             <button class="btn red ms-5 btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Recipe</button>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+                <img class="img-fluid" src="Asset/edited.jpg" alt="toma">
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--our-products-->
+<section id="our-products" class="bg- mt-5 red">
+  <div class="container-lg ">
+    <div class="text-center bg-success rounded">
+      <h2 class="fw-bold whitetext fst-italic">Our Products</h2>
+      
+
+    </div>
+  </div>
+  <div class="row my-5 align-items-center justify-content-center">
+    <div class="col-8 col lg-3 col-xl-3">
+      <div class="card border-0  ">
+        <div class="card-body text-center py-4">
+          <img src="Asset/chilli.jpg" class="card-img-top" alt="...">
+          <h4 class="card-tittle fst-italic">Jollof</h4>
+          <p class="lead card subtittle"></p>
+          <p class="lead my-4 text-muted">
+            500ml-N1000<br>1ltr-N1500<br>2ltrs-N3000<br>4ltrs-N5000
+          </p>
+          <a href="" class="btn btn-outline-success btn-lg mt-3  shadow-lg">Buy Now</a>
+          
+        </div>
+      </div>
+
+    </div>
+    <div class="col-8 col lg-3 col-xl-3">
+      <div class="card border-0 ">
+        <div class="card-body text-center py-4">
+          <img src="Asset/chilli.jpg" class="card-img-top" alt="...">
+          <h4 class="card-tittle fst-italic">Chilli</h4>
+          <p class="lead card subtittle"></p>
+          <p class="lead my-4 text-muted">
+            500ml-N1000<br>1ltr-N1500<br>2ltrs-N3000<br>4ltrs-N5000
+          </p>
+          <a href="" class="btn shadow-lg btn-lg mt-3 btn-outline-success">Buy Now</a>
+          
+        </div>
+      </div>
+
+    </div>
+    <div class="col-8 col lg-3 col-xl-3">
+      <div class="card border-0 ">
+        <div class="card-body text-center py-4 ">
+          <img src="Asset/chilli.jpg" class="card-img-top" alt="...">
+          <h4 class="card-tittle fst-italic">Spicy</h4>
+          <p class="lead card subtittle"></p>
+          <p class="lead my-4 text-muted">
+            500ml-N1000<br>1ltr-N1500<br>2ltrs-N3000<br>4ltrs-N5000
+          </p>
+          <a href="" class="btn btn-outline-success shadow-lg btn-lg mt-3 ">Buy Now</a>
+          
+        </div>
+      </div>
+
+    </div>
+    <div class="col-8 col lg-3 col-xl-3">
+      <div class="card border-0">
+        <div class="card-body text-center py-4">
+          <img src="Asset/chilli.jpg" class="card-img-top" alt="...">
+          <h4 class="card-tittle fst-italic">xtra-chilli</h4>
+          <p class="lead card subtittle"></p>
+          <p class="lead my-4 text-muted">
+            500ml-N1000<br>1ltr-N1500<br>2ltrs-N3000<br>4ltrs-N5000
+          </p>
+          <a href="" class="btn  btn-outline-success shadow-lg btn-lg mt-3 ">Buy Now</a>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!--About-Us-->
+<section id="About-Us"></section>
+<div class="container-lg my-5">
+  <div class="text-start md-5y xxl-5y">
+    <h2 class="bg-success whitetext fst-italic">About-us</h2>
+    <p class="lead text-muted">Welcome to Ms. Me Foods! We are a company dedicated to providing high-quality tomato paste (Toma
+      -puree) in variety of flavors to our customers. Our business was founded with a mission to offer a
+      convenient, affordable and healthy solution for those who love the taste of fresh tomatoes but do not
+      have the time or simply want to eliminate the stress associated with preparing a tomato paste.</p>
+      <p class="lead text-muted">We source our tomatoes from carefully selected farms and use only the freshest and ripest tomatoes to
+        make our paste, while garnishing it with paprika, pepper, onion, chilies, garlic and ginger to produce a
+        blend of different flavors. Our production is done under very hygienic conditions to ensure that the
+        tomatoes are handled with care and processed quickly to preserve their nutritional value and natural
+        flavor.</p>
+      <p class="lead text-muted">Toma-puree is made with a simple recipe of fresh organic tomatoes with all natural spices and flavor
+        making it a healthy and wholesome addition to any recipe. We offer Toma-puree in a range of packaging
+        options and variety of flavors to suit the needs of our customers.</p>
+      <p class="lead text-muted">We are committed to providing excellent customer service and ensuring that our products are of the
+        highest quality. We pride ourselves on our transparency, and we are always happy to answer any
+        questions our customers may have about our products.</p>
+      <p class="lead text-muted">Thank you for considering our tomato paste for your cooking needs. We look forward to serving you and
+        providing you with the best possible product and service.</p>
+
+  </div>
+<!--reveiws list-->
+<section id="reviews " class="bg-success">
+  <div class="container ">
+    <div id="carouselExample" class="carousel slide ">
+      <div class="carousel-inner  w-100 text-center">
+        <div class="carousel-item active">
+          <h2>Customer Testimonials</h2>
+          <p class="">I so much love this Tomato-puree, honestly I've never tasted anything like it <br>  And this spicy one hits the back of the tongue with every swallow. <br> Everyone is asking what my secret stew ingredient. </p>
+        <small>-wrote Inas</small>
+        </div>
+        <div class="carousel-item" >
+          <h2>Customer Testimonials</h2>
+          <p class="">I so much love this Tomato-puree, honestly
+             I've never tasted anything like it <br>  And this spicy one hits the back of the tongue with every swallow. <br>
+             Everyone is asking what my secret stew ingredient. </p>
+        <small>-wrote Inas</small>
+        </div>
+<div class="carousel-item">
+  <h2>Customer Testimonials</h2>
+  <p class="">I so much love this Tomato-puree, honestly I've never tasted anything like it <br>  And this spicy one hits the back of the tongue with every swallow. <br> Everyone is asking what my secret stew ingredient. </p>
+<small>-wrote Inas</small>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+<!--ofcanvas-->
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header red">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel ">Jollof Rice</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  
+  <div class="offcanvas-body small bg-light ">
+    <img src="SNOW_20230218_174636_190-removebg-preview (1).png" alt=""  width="200" height="100">
+  
+  <ul>
+      <li>500ml Ms.me Tomato-puree</li>
+      <li></li>
+    </ul>
+    
+  </div>
+</div>
+<!--modal-->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-light">
+      <div class="modal-header red">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body login-body">
+        <form action="" class="loginform p-5 m-1 border-5 text-center rounded" >
+          <h2>Login</h2>
+
+          <div class="form-floating mb-3 ">
+            <input type="email" class="form-control"  reqiured id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating ">
+            <input type="password" required class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <p class="">forgotten your password?</p>
+          
+          <button type="submit" class="btn  mt-2 mb-1 red">Login</button>
+          <div class="signin">
+        <p>Don't have an account?<a href="#" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Signup</p></a>
+        
+      </div></div>
+        </form>
+      </div>
+  </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered red">
+    <div class="modal-content bg-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body border-3">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Doose" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Email</label>
+            <input type="email" class="form-control" id="validationCustom02" value="@doosedeargmail" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom03" class="form-label">password</label>
+            <input type="password" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              choose a password
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom05" class="form-label">confirm password</label>
+            <input type="password" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Gender</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Prefer not to say</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select your gender
+            </div>
+          </div>
+         
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn red" type="submit ">Submit</button>
+          </div>
+         ;<p> Have an account? <a href="" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login</p></a>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+             </div>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<section  class="footer">
+  <footer class="bg-dark whitetext pt-5 pb-4">
+  <div class="container text-center ">
+    <div class="row  ">
+      <div class="col-3 border-left-3">
+        <h2 class="display-6 fw bold">Ms.Me foods</h2>
+        <p class="lead">saves you time, saves you money</p>
+
+      </div>
+      <div class="col-5  justify-content-center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+        </p>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 justify-content-center" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success align-center" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="col-2 ">
+        <p class="fw-bold">Follow Us</p>
+        
+<span><i class="bi bi-facebook"></i></span>
+<span><i class="bi bi-instagram"></i></span>
+<span><i class="bi bi-twitter"></i></span>
+      </div>
+      <div class="col-2 ">
+        <p class="fw-bold">Call Us</p>
+        <p></p>
+      </div>
+
+    </div>
+  </div>
+  </footer>
+</section>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
